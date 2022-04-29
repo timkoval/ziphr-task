@@ -36,7 +36,8 @@ Body:
 ```
 {
     "name": "Ivan",
-    "surname": "Ivanov"
+    "surname": "Ivanov",
+    "plane": 1
 }
 ```
 
