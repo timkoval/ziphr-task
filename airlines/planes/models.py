@@ -3,7 +3,7 @@ import uuid
 from django.db.models.deletion import CASCADE
 
 class Plane(models.Model):
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    id = models.AutoField(primary_key=True)
     tank_capacity = models.PositiveIntegerField(verbose_name='Fuel Tank Capacity')
     consumption = models.PositiveIntegerField()
 
